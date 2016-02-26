@@ -20,6 +20,12 @@ Installation via npm
 ```
 npm install gixi
 ```
+
+Installation via bower
+```
+bower install gixi
+```
+
 Using CDN
 
 ```
