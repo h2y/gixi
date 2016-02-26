@@ -6,6 +6,7 @@
 
 Using jQuery library [demo](http://www.linuxenko.pro/gixi/examples/jquery-example.html) <br />
 Vanila JS [demo](http://www.linuxenko.pro/gixi/examples/no-jquery-example.html) <br /> <br />
+CodePen [live demo](http://codepen.io/linuxenko/pen/oxvroK) <br />
 
 GitHub identicons like pixel/avatar images generator library. <br />
 Available as jquery or native library. <br />
