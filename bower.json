@@ -2,7 +2,7 @@
   "name": "gixi",
   "description": "Github identicons like images generator",
   "main": "dist/gixi-min.js",
-  "version" : "0.0.1",
+  "version" : "0.2",
   "authors": [
     "Svetlana Linuxenko"
   ],
