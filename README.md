@@ -1,12 +1,25 @@
 ## GIXI
 
-GitHub identicons like pixel/avatar images generator library.
-Available as jquery or native library.
-GIXI is entirely written using currently available es6 technologies.
+GitHub identicons like pixel/avatar images generator library. <br />
+Available as jquery or native library. <br />
+GIXI is entirely written using currently available es6 technologies. <br />
 
 
 ## Installation
 
+Installation via npm
+
+```
+npm install gixi
+```
+Using CDN
+
+```
+<script src="https://npmcdn.com/gixi@0.0.1/dist/gixi-min.js"></script>
+```
+
+Or download it from current release <br />
+ [gixi-min.js 2.96Kb](https://github.com/linuxenko/gixi/releases/download/v0.0.1/gixi-min.js)
 
 ## Usage
 
