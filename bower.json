@@ -1,0 +1,27 @@
+{
+  "name": "gixi",
+  "description": "Github identicons like images generator",
+  "main": "dist/gixi.min.js",
+  "version" : "0.0.1",
+  "authors": [
+    "Svetlana Linuxenko"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "identicons",
+    "pixel-avatar",
+    "noavatar",
+    "noimage"
+  ],
+  "homepage": "https://github.com/linuxenko/gixi",
+  "moduleType": [
+    "es6"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
