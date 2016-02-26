@@ -2,6 +2,11 @@
 
 <img src="https://raw.githubusercontent.com/linuxenko/gixi/master/examples/screenshot.png" align=center />
 
+<br />
+
+Using jQuery library [demo](http://www.linuxenko.pro/gixi/examples/jquery-example.html) <br />
+Vanila JS [demo](http://www.linuxenko.pro/gixi/examples/no-jquery-example.html) <br /> <br />
+
 GitHub identicons like pixel/avatar images generator library. <br />
 Available as jquery or native library. <br />
 GIXI is entirely written using currently available es6 technologies. <br />
@@ -62,3 +67,8 @@ Or download it from current release [gixi-min.js ](https://github.com/linuxenko/
   element.setAttribute('src', imageData);
 
 ```
+
+
+## License 
+
+Copyright (c) 2016 Svetlana Linuxenko
