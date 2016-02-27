@@ -1,16 +1,14 @@
 ## GIXI
 
+> HTML5 canvas based GitHub identicons like pixel/avatar images generator library. Available as jquery plugin, es6 or vanillaJS.<br />
+
 <img src="https://raw.githubusercontent.com/linuxenko/gixi/master/examples/screenshot.png" align=center />
 
 <br />
 
 Using jQuery library [demo](http://www.linuxenko.pro/gixi/examples/jquery-example.html) <br />
-Vanila JS [demo](http://www.linuxenko.pro/gixi/examples/no-jquery-example.html) <br /> <br />
+VanillaJS [demo](http://www.linuxenko.pro/gixi/examples/no-jquery-example.html) <br /> <br />
 CodePen [live demo](http://codepen.io/linuxenko/pen/oxvroK) <br />
-
-GitHub identicons like pixel/avatar images generator library. <br />
-Available as jquery or native library. <br />
-GIXI is entirely written using currently available es6 technologies. <br />
 
 
 ## Installation
