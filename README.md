@@ -6,8 +6,8 @@
 
 <br />
 
-Using jQuery library [demo](http://www.linuxenko.pro/gixi/examples/jquery-example.html) <br />
-VanillaJS [demo](http://www.linuxenko.pro/gixi/examples/no-jquery-example.html) <br /> <br />
+Using jQuery library [demo](http://www.linuxenko.pro/showcase/gixi/jquery-example.html) <br />
+VanillaJS [demo](http://www.linuxenko.pro/showcase/gixi/no-jquery-example.html) <br /> <br />
 CodePen [live demo](http://codepen.io/linuxenko/pen/oxvroK) <br />
 
 
