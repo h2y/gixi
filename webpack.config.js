@@ -11,7 +11,9 @@ module.exports = {
     entry: path.resolve(dir_js, 'index.js'),
     output: {
         path: dir_build,
-        filename: 'gixi-min.js'
+        filename: 'gixi-min.js',
+	library : 'GIXI',
+	libraryTarget : 'commonjs2'
     },
     devServer: {
         contentBase: dir_build,
