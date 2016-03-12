@@ -73,6 +73,13 @@ Or download it from current release [gixi-min.js ](https://github.com/linuxenko/
 
 ```
 
+### Browserify, Webpack
+
+```
+var GIXI = require('gixi');
+
+```
+
 
 ## License 
 
