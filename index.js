@@ -1,2 +1,2 @@
 
-module.exports =  require('./dist/gixi-min.js');
+module.exports =  require('./dist/gixi-module.js');
