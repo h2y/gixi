@@ -17,15 +17,15 @@
     "webpack-dev-server": "^1.12.1"
   },
   "scripts": {
-    "build": "webpack",
-    "start": "webpack-dev-server"
+    "build": "webpack -d",
+    "start": "webpack -d --watch"
   },
   "babel": {
     "presets": [
       "es2015"
     ],
     "plugins": [
-    
+
     ]
   }
 }
