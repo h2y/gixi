@@ -10,10 +10,12 @@ Without jQuery [demo](https://github.com/h2y/gixi/blob/master/examples/no-jquery
 
 ## Installation
 
-Installation via bower
+Installation via Package Managers
 
 ```shell
 bower install https://github.com/h2y/gixi.git#^1.0.1 --save
+
+npm i github:h2y/gixi --save
 ```
 
 Using JS link
