@@ -12,8 +12,8 @@ Without jQuery [demo](https://github.com/h2y/gixi/blob/master/examples/no-jquery
 
 Installation via bower
 
-```
-bower install https://github.com/h2y/gixi.git#^1.0.1
+```shell
+bower install https://github.com/h2y/gixi.git#^1.0.1 --save
 ```
 
 Using JS link
@@ -22,7 +22,7 @@ Using JS link
 <script src="https://raw.githubusercontent.com/h2y/gixi/master/dist/gixi-min.js"></script>
 ```
 
-Or download it from current release [gixi-min.js ](https://raw.githubusercontent.com/h2y/gixi/master/dist/gixi-min.js) 3.53Kb
+Or download it from current release [gixi-min.js](https://raw.githubusercontent.com/h2y/gixi/master/dist/gixi-min.js) 3.53Kb
 
 ## Usage
 
@@ -44,7 +44,7 @@ $('.avatar-element').gixi({
 });
 ```
 
--   Or seed by the DOM userdata
+-   Or define seed by the DOM data
 
 `<img data-gixiseed="the username" id="avatar" />`
 
@@ -53,7 +53,7 @@ $("#avatar").gixi({
     // the seed is 'the username', avatar and color is random by it
     // but it will be override by the follow settings
     color: '#f6a',
-    seed:  'yes'
+    seed:  'new seed'
 });
 ```
 
@@ -64,8 +64,8 @@ $("#avatar").gixi({
 
 ```js
 /*
-*  Generate gixi image for size of 300
-*  The seed is 'userdata'
+*  Generate gixi image for size of 300,
+*  seed of 'userdata'
 */
 var imageData = new GIXI(300, 'userdata').getImage();
 
