@@ -1,88 +1,89 @@
 ## GIXI
 
-> HTML5 canvas based GitHub identicons like pixel/avatar images generator library. Available as jquery plugin, es6 or vanillaJS.<br />
+> HTML5 canvas based GitHub identicons like pixel/avatar images generator library. Available as jQuery plugin, or native JS.
 
-<img src="https://raw.githubusercontent.com/linuxenko/gixi/master/examples/screenshot.png" align=center />
+<img src="https://raw.githubusercontent.com/h2y/gixi/master/examples/screenshot.png" align=center />
 
-<br />
+Using jQuery library [demo](https://github.com/h2y/gixi/blob/master/examples/jquery-example.html)
 
-Using jQuery library [demo](http://www.linuxenko.pro/showcase/gixi/jquery-example.html) <br />
-VanillaJS [demo](http://www.linuxenko.pro/showcase/gixi/no-jquery-example.html) <br /> <br />
-CodePen [live demo](http://codepen.io/linuxenko/pen/oxvroK) <br />
-
+Without jQuery [demo](http://www.linuxenko.pro/showcase/gixi/no-jquery-example.html)
 
 ## Installation
 
-Installation via npm
-
-```
-npm install gixi
-```
-
 Installation via bower
-```
-bower install gixi
+
+    bower install https://github.com/h2y/gixi.git#^1.0.0
+
+Using JS link
+
+```html
+    <script src="https://raw.githubusercontent.com/h2y/gixi/master/dist/gixi-min.js"></script>
 ```
 
-Using CDN
-
-```
-<script src="https://npmcdn.com/gixi@0.0.1/dist/gixi-min.js"></script>
-```
-
-Or download it from current release [gixi-min.js ](https://github.com/linuxenko/gixi/releases/download/v0.0.1/gixi-min.js) 2.96Kb
+Or download it from current release [gixi-min.js ](https://raw.githubusercontent.com/h2y/gixi/master/dist/gixi-min.js) 3.53Kb
 
 ## Usage
 
 ### Make identicons using jQuery
 
-  * Download and install gixi-min.js library <br />
-  * Use following code to invoke gixification of your dom elements
+-   Download and install _gixi-min.js_ library
+-   Use following code to invoke gixification of your dom elements
 
+`<div class="avatar-element"></div>`
+
+```js
+// random color and avatar
+$('.avatar-element').gixi();
+
+// or custom by settings
+$('.avatar-element').gixi({
+    color: "hsl(256, 33%, 46%)", //default is random by the seed
+    seed:  "generate avatars by this seed" //default is a random string
+});
 ```
-  $('.avatar-element').gixi();
 
-  // or using custom colors
+-   Or seed by the DOM userdata
 
-  var color = "#000";
-  $('.avatar-element').gixi(color);
+`<img data-gixiseed="the username" id="avatar" />`
+
+```js
+$("#avatar").gixi({
+    // the seed is 'the username', avatar and color is random by it
+    // the settings will be override at there
+    color: undefined,
+    seed:  undefined
+});
 ```
-
 
 ### Make identicons without jQuery
 
+-   Download and install _gixi-min.js_ library
+-   Use following code to invoke gixification of your dom elements
 
-  * Download and install gixi-min.js library <br />
-  * Use following code to invoke gixification of your dom elements
+```js
+/*
+*  Generate gixi image for size of 300
+*  The seed is 'userdata'
+*/
+var imageData = new GIXI(300, 'userdata').getImage();
 
-```
- /*
-  *  Generate gixi image for size of 300
-  */
-
-  var imageSize = 300;
-  var imageData = new GIXI(imageSize).getImage();
-
-  /*
-   *  Then place it to your dom element
-   */
-
-  var element = document.getElementById('gixie');
-
-  element.setAttribute('src', imageData);
-
+/*
+*  Then place it to your DOM element
+*/
+var element = document.getElementById('gixie');
+element.setAttribute('src', imageData);
 ```
 
 ### Browserify, Webpack
 
+```js
+    var GIXI = require('gixi');
 ```
-var GIXI = require('gixi');
 
-```
-
-
-## License 
+## License
 
 MIT
 
-Copyright (c) 2014 Svetlana Linuxenko
+Copyright (c) 2016 Moshel
+
+Forked from [linuxenko/gixi](https://github.com/linuxenko/gixi)

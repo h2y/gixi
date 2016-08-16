@@ -1,13 +1,17 @@
 {
   "name": "gixi",
   "description": "Github identicons like images generator",
-  "version": "0.0.6",
-  "homepage": "http://github.com/linuxenko/gixi",
-  "author": {
+  "version": "1.0.0",
+  "homepage": "http://github.com/h2y/gixi",
+  "author": [{
     "name": "Svetlana Linuxenko",
     "email": "linuxenko@yahoo.com",
     "url": "http://github.com/linuxenko/"
-  },
+  }, {
+    "name": "Moshel",
+    "homepage": "https://hzy.pw/",
+    "url": "http://github.com/h2y/"
+  }],
   "devDependencies": {
     "babel-loader": "^6.1.0",
     "babel-polyfill": "^6.3.14",
