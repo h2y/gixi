@@ -17,7 +17,7 @@ Installation via bower
 Using JS link
 
 ```html
-    <script src="https://raw.githubusercontent.com/h2y/gixi/master/dist/gixi-min.js"></script>
+<script src="https://raw.githubusercontent.com/h2y/gixi/master/dist/gixi-min.js"></script>
 ```
 
 Or download it from current release [gixi-min.js ](https://raw.githubusercontent.com/h2y/gixi/master/dist/gixi-min.js) 3.53Kb
@@ -49,9 +49,9 @@ $('.avatar-element').gixi({
 ```js
 $("#avatar").gixi({
     // the seed is 'the username', avatar and color is random by it
-    // the settings will be override at there
-    color: undefined,
-    seed:  undefined
+    // but it will be override by the follow settings
+    color: '#f6a',
+    seed:  'yes'
 });
 ```
 
@@ -77,7 +77,7 @@ element.setAttribute('src', imageData);
 ### Browserify, Webpack
 
 ```js
-    var GIXI = require('gixi');
+var GIXI = require('gixi');
 ```
 
 ## License
