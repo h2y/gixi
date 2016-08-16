@@ -12,7 +12,7 @@ Without jQuery [demo](http://www.linuxenko.pro/showcase/gixi/no-jquery-example.h
 
 Installation via bower
 
-    bower install https://github.com/h2y/gixi.git#^1.0.0
+`bower install https://github.com/h2y/gixi.git#^1.0.1`
 
 Using JS link
 
