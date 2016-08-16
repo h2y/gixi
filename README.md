@@ -6,13 +6,15 @@
 
 Using jQuery library [demo](https://github.com/h2y/gixi/blob/master/examples/jquery-example.html)
 
-Without jQuery [demo](http://www.linuxenko.pro/showcase/gixi/no-jquery-example.html)
+Without jQuery [demo](https://github.com/h2y/gixi/blob/master/examples/no-jquery-example.html)
 
 ## Installation
 
 Installation via bower
 
-`bower install https://github.com/h2y/gixi.git#^1.0.1`
+```
+bower install https://github.com/h2y/gixi.git#^1.0.1
+```
 
 Using JS link
 
