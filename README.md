@@ -2,7 +2,7 @@
 
 > HTML5 canvas based GitHub identicons like pixel/avatar images generator library. Available as jQuery plugin, or native JS.
 
-<img src="https://raw.githubusercontent.com/h2y/gixi/master/examples/screenshot.png" align=center />
+![preview](https://raw.githubusercontent.com/h2y/gixi/master/examples/screenshot.png)
 
 Using jQuery library [demo](https://github.com/h2y/gixi/blob/master/examples/jquery-example.html)
 
@@ -13,7 +13,7 @@ Without jQuery [demo](https://github.com/h2y/gixi/blob/master/examples/no-jquery
 Installation via Package Managers
 
 ```shell
-bower install https://github.com/h2y/gixi.git#^1.0.1 --save
+bower install https://github.com/h2y/gixi.git#^1.1.0 --save
 
 npm i github:h2y/gixi --save
 ```
@@ -42,20 +42,20 @@ $('.avatar-element').gixi();
 // or custom by settings
 $('.avatar-element').gixi({
     color: "hsl(256, 33%, 46%)", //default is random by the seed
-    seed:  "generate avatars by this seed" //default is a random string
+    seed:  "generate avatars by this seed", //default is a random string
+    size:  100 //default is same to the element's height
 });
 ```
 
--   Or define seed by the DOM data
+-   Or define settings by the DOM data
 
-`<img data-gixiseed="the username" id="avatar" />`
+`<img data-gixiseed="the username" data-gixicolor="#f0a" data-gixisize="100" id="avatar" />`
 
 ```js
 $("#avatar").gixi({
-    // the seed is 'the username', avatar and color is random by it
-    // but it will be override by the follow settings
-    color: '#f6a',
-    seed:  'new seed'
+    // the seed is 'the username', the size and color is customed also
+    // but it will be override by the follow settings there
+    seed:  'a new seed'
 });
 ```
 

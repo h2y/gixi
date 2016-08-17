@@ -1,7 +1,7 @@
 {
     "name": "gixi",
     "description": "Github identicons like images generator",
-    "version": "1.0.1",
+    "version": "1.1.0",
     "homepage": "http://github.com/h2y/gixi",
     "license": "MIT",
     "author": [{
