@@ -84,6 +84,17 @@ element.setAttribute('src', imageData);
 var GIXI = require('gixi');
 ```
 
+## Related Projects
+
+There are many related projects by rear-end language.
+Convenient to use and better compatibility.
+But probably slow or unstable.
+
+Random avatar generator for browser side just like GIXI are exiguous:
+
+- [Identicon5](https://github.com/FrancisShanahan/Identicon5). Similarly but use canvas.
+- [Alien-Avatar Generator](https://github.com/TimPietrusky/alien-avatar-generator). Alien style.
+
 ## License
 
 MIT
